@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(92, 127, 185);
+}
+
+
+.navbar-nav {
+    margin-left: auto;
+    margin-top: 1vh;
+    color: white;
+    font-size: 17px;
+    padding: 7px 12px;
+    /* text-transform: uppercase; */
+}
+
+a #t1 {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a#a1 {
+    margin-left: 0.5vh;
+    margin-right: 2vh;
+}
+
+a#a2 {
+    margin-right: 2vh;
+}
+
+a#a3 {
+    margin-right: 2vh;
+}
+
+a#a4 {
+    margin-right: 2vh;
+}
+
+#a1:hover,
+#a2:hover,
+#a3:hover,
+#a4:hover {
+    background: #e2ddb1;
+    transition: 0.5s;
+    border: 0.5px rgb(92, 127, 185) ridge;
+    border-radius: 1vh;
+}
+
+img {
+    width: 600px;
+    height: 800px;
+    object-fit: cover;
+}
+
+
+.carousel-caption {
+    background: rgb(92, 127, 185, 0.3);
+    border: 1px solid rgb(83, 98, 122);
+    border-radius: 10%;
+}
+
+.quote-container {
+    padding: 20px;
+
+}
+
+.txt1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 50px 50px;
+    font-weight: bold;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+
+
+/* services  */
+
+
+section.services {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icon #icon {
+    width: 64px !important;
+    height: 64px !important;
+}
+
+div.service_top {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.services .service_top h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 2px black solid;
+    background-color: #000;
+    height: 50%;
+    width: 40vh;
+    border-radius: 10px;
+
+}
+
+.services .service_top span {
+    color: crimson;
+}
+
+.services .service_top p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+    margin-top: 5px;
+    letter-spacing: 0.05rem;
+}
+
+.services .service_item {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url('./images/20150901_cam_01_overcast_SUGGESTED.jpg');
+    background-size: cover;
+    margin: 10px 5%;
+    
+}
+
+.service_item {
+    color: rgb(56, 47, 47);
+    font-weight: 800;
+}
+
+/* #card1 {
+    background-image: url('./images/Card-hamburg.jpg');
+}
+
+#card2 {
+    background-image: url('./images/Card-hamburg.jpg');
+}
+
+#card3 {
+    background-image: url('./images/Card-hamburg.jpg');
+}
+ */
+
+
+/* footer */
+
+.social_media, .copyright {
+    margin: 1rem;
+  }
+  
+  .social_media li {
+    display: inline-block;
+  }
+  
+  footer {
+    padding: 1rem 0;
+    background: #ae9d9d;
+    text-align: center;
+  }
+
+  .social_media li #img01{
+      width: 40px !important;
+      height: 40px !important;
+
+  }
