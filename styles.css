@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -61,7 +62,7 @@ img {
 
 
 .carousel-caption {
-    background: rgb(92, 127, 185, 0.3);
+    background: rgba(58, 65, 77, 0.3);
     border: 1px solid rgb(83, 98, 122);
     border-radius: 10%;
 }
@@ -99,7 +100,7 @@ section.services {
 div.service_top {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 
@@ -139,14 +140,14 @@ div.service_top {
     flex-basis: 80%;
     display: flex;
     align-items: flex-start;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
     background-image: url('./images/20150901_cam_01_overcast_SUGGESTED.jpg');
     background-size: cover;
     margin: 10px 5%;
-    
+
 }
 
 .service_item {
@@ -170,22 +171,23 @@ div.service_top {
 
 /* footer */
 
-.social_media, .copyright {
+.social_media,
+.copyright {
     margin: 1rem;
-  }
-  
-  .social_media li {
+}
+
+.social_media li {
     display: inline-block;
-  }
-  
-  footer {
+}
+
+footer {
     padding: 1rem 0;
     background: #ae9d9d;
     text-align: center;
-  }
+}
 
-  .social_media li #img01{
-      width: 40px !important;
-      height: 40px !important;
+.social_media li #img01 {
+    width: 40px !important;
+    height: 40px !important;
 
-  }
+}

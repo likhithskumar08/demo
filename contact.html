@@ -39,7 +39,7 @@
       <img src="./images/Contact-Us-Vector-Illustration-Part-02-1.jpg" alt="Contact us" height="350px" class="picture">
     </div>
     <div class="contain">
-      <form action="index.html" method="post" onsubmit="getdetails()">
+      <div class="form">
 
         <label for="name">Name</label>
         <input type="text" id="name" name="name" placeholder="Enter your name" value="" required>
@@ -53,9 +53,10 @@
         <label for="desc">Description</label>
         <textarea id="desc" name="desc placeholder=" Enter your views" style="height:200px" value=""></textarea>
 
-        <button id="b1" name="button" value="Save">Submit</button>
+        <button id="b1" name="button" value="Save" class="btnSubmit">Submit</button>
         <!--onclick="savedata()"-->
-      </form>
+        <!-- onsubmit="getdetails()" -->
+      </div>
       <!-- <div id="display"> -->
 
     </div>
