@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700');
 
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -52,7 +52,7 @@ span {
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    margin: 1rem;
+    margin: 8rem;
 }
 
 .store-item {
@@ -67,24 +67,24 @@ span {
     border: 3px inset #000;
 }
 
-@media (max-width:960px){
+@media (max-width:960px) {
 
-    body{
+    body {
         background-color: lightskyblue;
     }
-    
+
     .box {
         margin: auto;
     }
 
 }
 
-@media (max-width:895px){
+@media (max-width:895px) {
 
-    body{
+    body {
         background-color: lightskyblue;
     }
-    
+
     .box {
         margin: 4rem;
     }
